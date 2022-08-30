@@ -1,0 +1,86 @@
+body, html{
+ height: 100%;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url('train1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-box{
+ 
+  box-sizing: border-box;
+ background-color: white;
+ opacity: 0.7;
+ border: 5px solid white;
+ border-radius: 7%;
+ margin-left: 7%;
+ margin-right: 7%;
+ padding: 6% 6% 3% 6%;
+ min-width: 80%;
+ background-color: black;
+ color: white;
+}
+
+
+#count-el, .first-text{
+ text-align: center;
+}
+
+#count-el{
+ margin-top: 15%;
+ font-size: 3rem;
+}
+
+#increment-btn, #save-btn{
+ padding-block: 5%;
+ padding-left: 21.5%;
+ padding-right: 21.5%;
+ border: none;
+ outline: none;
+ border-radius: 5px;
+ margin-left: 13%;
+ font-weight: bold;
+}
+
+#save-btn{
+ padding-block: 5%;
+ padding-left: 30%;
+ padding-right: 30%;
+ margin-top: 5%;
+ margin-bottom: 10%;
+ background-color: transparent;
+ border: 2px solid white;
+ color: white;
+}
+#increment-btn{
+ margin-top: 10%;
+}
+
+#save-el{
+ text-align: center;
+ font-weight: bold;
+ margin-bottom: 9%;
+}
+
+#save-el, .first-text{
+ letter-spacing: 2px;
+}
+
+.first-text::first-letter{
+ font-size: xx-large;
+}
+
+.entered{
+ font-size: 2rem;
+}
